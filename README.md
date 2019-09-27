@@ -1,2 +1,0 @@
-# BucinAjg
-Apasi kntl gjls
