@@ -1,0 +1,195 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+li {
+    display: inline-block;
+    float: left;
+    margin-right: 1px;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+}
+li a {
+    display: block;
+    min-width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: poiret one;
+    color: Black;
+    text-decoration: none;
+}
+li:hover a {
+    background: white;
+}
+li:hover ul a {
+    background: white;
+    color: black;
+}
+li:hover ul a:hover {
+    background: white;
+    color: black;
+}
+li ul {
+    display: none;
+}
+li ul li {
+    display: block;
+    float: none;
+}
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+.menu {
+    font-family: poiret one;
+    text-decoration: none;
+    color: white;
+    background: white;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+input[type=checkbox] {
+    display: none;
+}
+input[type=checkbox]:checked ~ #menu {
+    display: block;
+}
+@media screen and (max-width : 760px) {
+    ul {
+        position: static;
+        display: none;
+    }
+    li {
+        margin-bottom: 1px;
+    }
+    ul li, li a {
+        width: 100%;
+    }
+    .show-menu {
+        display: block;
+    }
+}
+@-moz-keyframes fadein {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+@-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+.maintitle {
+    position: absolute;
+    font-family: poiret one;
+    font-size: 50px;
+    letter-spacing: 40px;
+    margin-top: 90px;
+    margin-left: 800px;
+    -moz-animation: fadein 4s;
+    -webkit-animation: fadein 4s;
+}
+.tagline {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 855px;
+    font-family: poiret one;
+    letter-spacing: 15px;
+    font-size: 15px;
+    -moz-animation: fadein 4s;
+    -webkit-animation: fadein 4s;
+}
+.titleline {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 1005px;
+    background-color: black;
+    width: 75px;
+    height: 1px;
+    -moz-animation: fadein 8s;
+    -webkit-animation: fadein 8s;
+    background: linear-gradient(to left, #ffffff 0%, #000000 70%);
+}
+.titleline2 {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 930px;
+    background-color: black;
+    width: 75px;
+    height: 1px;
+    -moz-animation: fadein 8s;
+    -webkit-animation: fadein 8s;
+    background: linear-gradient(to right, #ffffff 0%, #000000 70%);
+}
+#manvr {
+    margin-left: -40px;
+}
+#linemanvr {
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 410px;
+    background-color: black;
+    width: 945px;
+    height: 1.5px;
+}
+.images {
+    -moz-animation: fadein 8s;
+    -webkit-animation: fadein 8s;
+}
+#fb {
+    position: absolute;
+    margin-left: 500px;
+}
+#fb {
+    transition: 1.5s;
+}
+#fb:hover {
+    width: 80px;
+    height: 80px;
+}
+#wa {
+    position: absolute;
+    margin-left: 600px;
+}
+#wa {
+    transition: 1.5s;
+}
+#wa:hover {
+    width: 80px;
+    height: 80px;
+}
+#twitter {
+    position: absolute;
+    margin-left: 700px;
+}
+#twitter {
+    transition: 1.5s;
+}
+#twitter:hover {
+    width: 80px;
+    height: 80px;
+}
+#insta {
+    position: absolute;
+    margin-left: 800px;
+}
+#insta {
+    transition: 1.5s;
+}
+#insta:hover {
+    width: 80px;
+    height: 80px;
+}
+#contact {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 550px;
+    font-family: poiret one;
+    letter-spacing: 5px;
+}
